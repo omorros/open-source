@@ -46,3 +46,4 @@
 
 ## Takeaways (1–2 bullets, optional)
 - <e.g., learned about X module / improved testing approach>
+.
