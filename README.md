@@ -35,6 +35,6 @@ Selected merged pull requests that show how I work in real codebases: debugging 
 
 ## Details
 Case studies with context, testing notes, and review iterations:
-- `contributions/`
+- [`contributions/`](./contributions/)
 
 
