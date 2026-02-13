@@ -20,14 +20,16 @@ Selected merged pull requests that show how I work in real codebases: debugging 
 
 ---
 
-## All contributions
-| Project | Area | What I did | Status | Links |
-|---------|------|------------|--------|-------|
-| IBM/mcp-context-forge | Bug Fix / UI | Removed duplicate loading spinner on A2A Agents page | merged | [#2892](https://github.com/IBM/mcp-context-forge/pull/2892) |
-| DjangoCRM/django-crm | Testing | Added unit tests for the `reload_field` view | merged | [#388](https://github.com/DjangoCRM/django-crm/pull/388) |
-| korcankaraokcu/PINCE | Bug Fix | Fixed arrow-key scrolling and selection sync in hex dump viewer | merged | [#312](https://github.com/korcankaraokcu/PINCE/pull/312) |
-| marketcalls/openalgo | Accessibility | Added dynamic aria-labels to inline-edit inputs | merged | [#899](https://github.com/marketcalls/openalgo/pull/899) |
-| marketcalls/openalgo | UX / Error Handling | Added toast + inline error display for Search API failures | merged | [#900](https://github.com/marketcalls/openalgo/pull/900) |
+## Contributions
+
+| Repo | PR | Summary | Area | Status | Case study |
+|---|---:|---|---|---|---|
+| [IBM/mcp-context-forge](https://github.com/IBM/mcp-context-forge) | [#2892](https://github.com/IBM/mcp-context-forge/pull/2892) | Fixed duplicate loading spinner on A2A Agents page | Bugfix / UI | merged | [Read](./contributions/ibm-mcp-context-forge-pr-2892.md) |
+| [DjangoCRM/django-crm](https://github.com/DjangoCRM/django-crm) | [#388](https://github.com/DjangoCRM/django-crm/pull/388) | Added unit tests for `reload_field` AJAX view | Testing | merged | [Read](./contributions/djangocrm-django-crm-pr-388.md) |
+| [korcankaraokcu/PINCE](https://github.com/korcankaraokcu/PINCE) | [#312](https://github.com/korcankaraokcu/PINCE/pull/312) | Fixed arrow-key scrolling + selection sync in hex dump viewer | Bugfix | merged | [Read](./contributions/korcankaraokcu-pince-pr-312.md) |
+| [marketcalls/openalgo](https://github.com/marketcalls/openalgo) | [#899](https://github.com/marketcalls/openalgo/pull/899) | Added dynamic aria-labels to inline-edit inputs | Accessibility | merged | [Read](./contributions/marketcalls-openalgo-pr-899.md) |
+| [marketcalls/openalgo](https://github.com/marketcalls/openalgo) | [#900](https://github.com/marketcalls/openalgo/pull/900) | Added toast + inline error UI for Search API failures | UX / Error handling | merged | [Read](./contributions/marketcalls-openalgo-pr-900.md) |
+
 
 ---
 
