@@ -35,13 +35,7 @@ MCP Context Forge is an IBM project with an admin dashboard built on HTMX. The A
 - Verified correct spinner behavior when toggling the "Show Inactive" filter
 - No Python code changes — lint, unit tests, and coverage unaffected
 
-## Risks / Trade-offs
-- **Risk:** Minimal — pure template deletion, no logic changes.
-- **Mitigation:** The same pattern was already applied to three other tabs without issues. Change is scoped to a single HTML block.
-
 ## Review notes
 - **Feedback:** Reviewer asked whether the same duplicate-spinner issue existed on other tabs.
 - **Iteration:** Clarified that servers, virtual servers, and tools were already fixed in PR #2720 (commit `6b3283e`), and only the agents tab still had the duplicate.
 
-## Takeaways
-- Small UI inconsistencies can slip through when a fix is applied to most tabs but not all — worth doing a sweep across sibling components.

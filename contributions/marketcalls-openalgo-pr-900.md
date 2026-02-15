@@ -43,14 +43,6 @@ OpenAlgo is an open-source algorithmic trading platform. The Search page (`front
 - Successful search still displays results normally
 - Error state clears when a new search is initiated
 
-## Risks / Trade-offs
-- **Risk:** Toast notifications could be missed if the user is focused elsewhere on the page.
-- **Mitigation:** The inline red error message provides a persistent visual cue in addition to the transient toast, so the failure is communicated through two channels.
-
 ## Review notes
 - **Feedback:** Maintainer approved the core approach but requested two refinements: (1) add a toast category (`'system'`) and (2) differentiate HTTP status codes (401/403 vs 500) for more specific error messages.
 - **Iteration:** Addressed both points in a follow-up commit — added the category, implemented status code branching, and cleaned up variable shadowing.
-
-## Takeaways
-- Iterating on reviewer feedback (status code differentiation) improved the final UX beyond the original issue scope.
-- Combining transient feedback (toast) with persistent feedback (inline message) is a solid pattern for error states in search interfaces.

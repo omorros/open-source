@@ -44,12 +44,6 @@ Django CRM is an open-source CRM built on Django. The `reload_field` view (`comm
 - Asserted correct user ID sets for department filtering by role
 - Confirmed department access control enforcement (override for unauthorized department requests)
 
-## Risks / Trade-offs
-- **Risk:** Tests depend on the user/department fixture setup — changes to the permission model could require test updates.
-- **Mitigation:** Setup follows existing test patterns in the project (`BaseTestCase`), keeping maintenance consistent with the rest of the test suite.
-
 ## Review notes
 - **Feedback:** Maintainer responded with "Thanks for the PR! Very good" — no revisions requested.
 
-## Takeaways
-- Writing tests for an unfamiliar AJAX view required tracing the full request path through Django's URL routing, middleware, and permission layers — a good exercise in codebase ramp-up.

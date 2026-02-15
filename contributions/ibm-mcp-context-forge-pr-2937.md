@@ -44,14 +44,6 @@ MCP Context Forge is an IBM project with an admin dashboard for managing teams, 
 - Tested scrolling behavior inside the member list and the "Users to Add" list independently
 - No Python code changes — lint, unit tests, and coverage unaffected
 
-## Risks / Trade-offs
-- **Risk:** Minimal — CSS-only changes scoped to a single modal component.
-- **Mitigation:** Used a two-level scroll containment strategy (outer modal cap + inner list max-height) to avoid edge cases. Manual testing confirmed correct behavior.
-
 ## Review notes
 - **Feedback:** Reviewer validated the approach as a "clean, well-scoped fix" and confirmed the two-level scroll containment was the right strategy.
 - **Iteration:** Rebased onto main with no conflicts before merge.
-
-## Takeaways
-- When working with airgapped or restricted build systems, inline styles can be a pragmatic fallback when framework-specific syntax isn't available.
-- Modal height issues often only surface with realistic data volumes — worth testing with larger datasets.

@@ -39,14 +39,7 @@ PINCE is a reverse-engineering tool built on GDB with a Qt-based GUI. The Memory
 - Validated that standard row-to-row navigation within the visible area still works
 - Checked that both hex and ASCII panels behave consistently
 
-## Risks / Trade-offs
-- **Risk:** Scrolling logic modifies selection boundaries alongside the address — if the offset calculation is wrong, the highlight could desync from the actual cell.
-- **Mitigation:** The offset is derived from `column_count` (bytes per row), which is the same value used for all existing navigation. The reviewer caught an initial desync in the first commit, which was fixed before merge.
-
 ## Review notes
 - **Feedback:** Reviewer noticed the selection highlight stayed at the previous position during boundary scrolling instead of following the cursor.
 - **Iteration:** Added a follow-up commit that updates the selection highlight to track the current cell when scrolling occurs.
 
-## Takeaways
-- Working with Qt signal/slot patterns in an inherited class hierarchy meant the fix applied to both hex and ASCII panels with no duplication.
-- Reviewer feedback on selection sync caught a subtle UX issue that manual testing alone might miss at first glance.

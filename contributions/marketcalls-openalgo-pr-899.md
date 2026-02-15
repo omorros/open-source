@@ -37,12 +37,5 @@ Labels are dynamic, incorporating the exchange or symbol name from the current r
 - Verified labels are contextual (include exchange/symbol name, not generic text)
 - Confirmed no XSS risk — interpolated values are React string attributes, not `dangerouslySetInnerHTML`, and the exchange/symbol names already appear elsewhere in the UI
 
-## Risks / Trade-offs
-- **Risk:** Minimal — additive change to JSX attributes, no logic or layout modifications.
-- **Mitigation:** React's attribute handling automatically escapes interpolated strings, preventing HTML injection.
-
 ## Review notes
 - **Feedback:** Maintainer described the implementation as "clean, correct, and complete" and noted coverage went beyond the original issue scope (MarketTimings) to include FreezeQty and Holidays.
-
-## Takeaways
-- Scanning sibling components for the same accessibility gap turned a single-file fix into a more complete contribution.
