@@ -6,8 +6,6 @@ Selected merged pull requests that show how I work in real codebases: debugging 
 - **IBM/mcp-context-forge** — Fixed UI loading-state duplication on A2A Agents page.
   PR: [#2892](https://github.com/IBM/mcp-context-forge/pull/2892) · Case study: [Read](./contributions/ibm-mcp-context-forge-pr-2892.md)
 
-- **IBM/mcp-context-forge** — Constrained Team Manage Members modal height to viewport.
-  PR: [#2937](https://github.com/IBM/mcp-context-forge/pull/2937) · Case study: [Read](./contributions/ibm-mcp-context-forge-pr-2937.md)
 
 - **DjangoCRM/django-crm** — Added unit tests for the `reload_field` AJAX view.  
   PR: [#388](https://github.com/DjangoCRM/django-crm/pull/388) · Case study: [Read](./contributions/djangocrm-django-crm-pr-388.md)
