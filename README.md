@@ -21,7 +21,7 @@ Featured case studies (IBM)
 
 ---
 
-## IBM (Primary)
+## IBM (Flagship)
 
 | Repo | PR | Outcome | Area | Case study |
 |---|---|---|---|---|
@@ -29,7 +29,7 @@ Featured case studies (IBM)
 | IBM/mcp-context-forge | [#2937](https://github.com/IBM/mcp-context-forge/pull/2937) | Prevented modal overflow that hid Save for large teams | UI | [Read](./contributions/ibm-mcp-context-forge-pr-2937.md) |
 | IBM/mcp-context-forge | [#2892](https://github.com/IBM/mcp-context-forge/pull/2892) | Removed duplicate loading spinner on A2A Agents | UI | [Read](./contributions/ibm-mcp-context-forge-pr-2892.md) |
 
-## Other OSS (Secondary)
+## Other OSS (Additional)
 
 | Repo | PR | Outcome | Area | Case study |
 |---|---|---|---|---|
