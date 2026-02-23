@@ -33,6 +33,4 @@ MCP Context Forge's plugin system allows post-processing of tool invocation resu
 - Support for both result formats validated
 
 ## Review notes
-- **crivetimihai** (Feb 19): "Well-structured plugin with clean separation between recursive pruning algorithm and plugin dispatch logic." Noted strengths: elegant `_get_pruned()` function, comprehensive 21-test coverage, support for both result formats, appropriate safety defaults.
-- **crivetimihai** (Feb 21): "Thanks @omorros — the json_prune plugin is a useful addition for reducing tool output payload sizes. Clean implementation."
-- **Milestone:** Release 1.1.0
+- **Feedback:** Maintainer approved — praised the "clean separation between pruning algorithm and dispatch logic," highlighted comprehensive 21-test coverage and appropriate safety defaults.

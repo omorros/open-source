@@ -36,6 +36,4 @@ MCP Context Forge supports a plugin system with a `PluginManager` that discovers
 - `pytest tests/unit/mcpgateway/plugins/framework/test_manager.py -v` — 13/13 passed
 
 ## Review notes
-- **crivetimihai** (Feb 19): "Clean, well-tested fix. Adds plugin_dirs config support for external plugin discovery by managing sys.path additions."
-- **crivetimihai** (Feb 21): "Using the plugin_dirs config for external plugin resolution is the correct fix. Clean and minimal."
-- **cafalchio** (Feb 23): "Thank you for addressing the issue, nice tests adding and removing the plugin."
+- **Feedback:** Two maintainers approved — described the fix as "clean and minimal" and praised the test quality for covering both adding and removing plugins.

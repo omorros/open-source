@@ -32,4 +32,4 @@ MCP Context Forge federates prompts from registered gateway servers. Issue #3087
 - `make coverage` >= 80% — passed
 
 ## Review notes
-- No explicit maintainer comments visible. Code owners requested for review: crivetimihai, kevalmahajan, madhav165.
+- **Feedback:** Awaiting review from code owners.

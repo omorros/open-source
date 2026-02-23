@@ -37,5 +37,4 @@ MCP Context Forge includes Playwright-based end-to-end tests that run across mul
 - No more intermittent failures observed
 
 ## Review notes
-- **Reviewers requested:** crivetimihai, kevalmahajan, madhav165 (code owners)
-- All awaiting review. No explicit feedback comments visible yet
+- **Feedback:** Awaiting review from code owners.

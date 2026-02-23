@@ -39,5 +39,4 @@ MCP Context Forge's Teams page includes a "Manage Members" modal for adding and 
 - `make coverage` >= 80%
 
 ## Review notes
-- **Reviewers requested:** crivetimihai, kevalmahajan, madhav165 (code owners), vishu-bh
-- No explicit feedback comments visible yet
+- **Feedback:** Awaiting review from code owners.

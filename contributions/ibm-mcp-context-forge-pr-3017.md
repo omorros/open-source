@@ -37,8 +37,4 @@ MCP Context Forge's admin dashboard has 6 paginated tables (servers, tools, reso
 - Unit tests 12,349/12,355 pass (pre-existing failures in both)
 
 ## Review notes
-- **marekdano** (Collaborator, approved Feb 18): Praised the clean separation using URL as single source of truth; confirmed manual testing verified functionality.
-- **crivetimihai** (Member, approved Feb 19): Called it a "good UX improvement," acknowledging that "filter status indicator and search/tag rehydration after HTMX swaps solve a real usability issue."
-- **crivetimihai** (Feb 21): Thanked contributor, characterizing the work as preventing "frustrating UX where filters reset on page change."
-- **Labels:** enhancement, SHOULD (P2), ui
-- **Milestone:** Release 1.0.0-GA
+- **Feedback:** Both reviewers approved — praised the "clean separation using URL as single source of truth" and called it a "good UX improvement" that solves "a real usability issue."

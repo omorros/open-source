@@ -43,7 +43,4 @@ MCP Context Forge's admin panel uses HTMX for partial page updates and Alpine.js
 - Verified page navigation works correctly after filtering
 
 ## Review notes
-- **crivetimihai** (Feb 19): "Clean fix. The Alpine.js `initTree` call is correctly guarded — checks for `_x_dataStack` absence to avoid double-initialization, and the `[id$='-pagination-controls']` selector is well-scoped. Adding `hx_swap = 'outerHTML'` consistently across all partials and the main template is the right approach since the pagination controls template already supports it via `{{ hx_swap|default('innerHTML') }}`."
-- **crivetimihai** (Feb 21): "Thanks @omorros — clean fix for the Alpine.js / HTMX OOB race condition. The `_x_dataStack` guard ensures idempotent init, and the consistent `hx_swap = 'outerHTML'` across all partials is a nice cleanup. LGTM."
-- **Labels:** bug, SHOULD (P2), ui
-- **Milestone:** Release 1.0.0-GA
+- **Feedback:** Maintainer approved — described it as a "clean fix for the Alpine.js / HTMX OOB race condition" and confirmed the `_x_dataStack` guard ensures idempotent initialization.

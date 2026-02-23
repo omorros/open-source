@@ -36,7 +36,4 @@ MCP Context Forge validates gateway server capabilities against a Pydantic model
 - Existing tests pass unchanged since boolean values are valid `Any` types
 
 ## Review notes
-- **crivetimihai**: "LGTM — `prompts`, `resources`, and `tools` were the only capability fields still typed as `Dict[str, bool]` while `logging`, `completions`, and `experimental` already used `Dict[str, Any]`. This aligns with the MCP SDK's permissive approach and fixes validation errors for servers that send non-boolean capability values."
-- **crivetimihai** (follow-up): "Thanks @omorros — clean fix. This aligns `prompts`, `resources`, and `tools` with the existing `Dict[str, Any]` pattern used by `logging`, `completions`, and `experimental`. LGTM."
-- **Labels:** bug, mcp-protocol, MUST (P1)
-- **Milestone:** Release 1.0.0-GA
+- **Feedback:** Maintainer approved — confirmed these were the only three capability fields still using `Dict[str, bool]` and called the alignment with the MCP SDK "clean."

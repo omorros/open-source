@@ -37,5 +37,4 @@ MCP Context Forge's admin Gateways page includes a "Fetch Tools" button for each
 - `make coverage` >= 80%
 
 ## Review notes
-- **Reviewers requested:** crivetimihai (code owner) and marekdano
-- No explicit feedback comments visible yet
+- **Feedback:** Awaiting review from code owners.

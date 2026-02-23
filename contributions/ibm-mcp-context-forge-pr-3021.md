@@ -39,7 +39,4 @@ MCP Context Forge's admin dashboard allows administrators to delete users. The d
 - Confirmed successful deletions still work normally
 
 ## Review notes
-- **marekdano** (Collaborator): Praised the PR, suggested extracting inline handler into a named JS function. Later approved with "LGTM."
-- **crivetimihai** (Member): Approved, called it "Clean" and an "important UX fix." Praised surfacing error messages instead of silently swallowing them.
-- **Labels:** bug, SHOULD (P2), ui
-- **Milestone:** Release 1.0.0-GA
+- **Feedback:** Both reviewers approved — one suggested extracting the inline handler into a named function (implemented). Maintainer called it a "clean" and "important UX fix."

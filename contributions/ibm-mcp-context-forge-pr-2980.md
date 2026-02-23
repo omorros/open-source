@@ -41,7 +41,4 @@ MCP Context Forge's admin dashboard includes a "Show" toggle on the Gateways pag
 - Manual test: Admin UI "Show" toggle working
 
 ## Review notes
-- **crivetimihai** (Feb 19): "Clean, minimal fix. The preserve_unmasked parameter defaults to False for safety, and only the admin UI's admin_get_gateway endpoint opts in with include_unmasked=True."
-- **crivetimihai** (Feb 21): "Thanks @omorros — important security fix. Preventing gateway token reveal in the admin UI closes a credential exposure vector. LGTM."
-- **Labels:** bug, MUST (P1), security
-- **Milestone:** Release 1.0.0-GA
+- **Feedback:** Maintainer approved — called it an "important security fix" and confirmed the safe-by-default parameter design (opt-in only for the admin endpoint).
