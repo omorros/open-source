@@ -18,10 +18,9 @@ MCP Context Forge's admin panel uses HTMX for partial page updates and Alpine.js
 - **Root cause:** Two issues combined: (1) Alpine.js's MutationObserver didn't reliably detect and initialize new `x-data` components after HTMX OOB swaps. (2) The `pagination_controls.html` template defaulted to `innerHTML` swap, but partial templates return full elements, causing nested elements with duplicate IDs.
 - **Scope:** All admin tables with pagination were affected after any filtering operation.
 
-### Before
+### After
 ![Pagination controls missing after filtering](../images/ibm-mcp-context-forge-pr-3047/before-pagination-missing.png)
 
-### After
 ![Pagination controls rendering correctly after filtering](../images/ibm-mcp-context-forge-pr-3047/after-pagination-fixed.png)
 
 ## Reproduction (before fix)
