@@ -1,7 +1,7 @@
-# IBM/mcp-context-forge — PR #3017 — Persisted admin table filters across HTMX pagination and partial refresh
+# IBM/mcp-context-forge — PR #3204 — Persisted admin table filters across HTMX pagination and partial refresh
 
 **Repo:** [IBM/mcp-context-forge](https://github.com/IBM/mcp-context-forge)
-**PR:** [#3017](https://github.com/IBM/mcp-context-forge/pull/3017)
+**PR:** [#3204](https://github.com/IBM/mcp-context-forge/pull/3204)
 **Issue:** [#2992](https://github.com/IBM/mcp-context-forge/issues/2992)
 **Status:** confirmed
 **Area:** feature / UI
@@ -37,4 +37,4 @@ MCP Context Forge's admin dashboard has 6 paginated tables (servers, tools, reso
 - Unit tests 12,349/12,355 pass (pre-existing failures in both)
 
 ## Review notes
-- **Feedback:** Both reviewers approved — praised the "clean separation using URL as single source of truth" and called it a "good UX improvement" that solves "a real usability issue."
+- **Feedback:** Maintainer recreated this PR from my original [#3017](https://github.com/IBM/mcp-context-forge/pull/3017) during repository maintenance, crediting me as co-author.

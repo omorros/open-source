@@ -1,7 +1,7 @@
-# IBM/mcp-context-forge — PR #3047 — Fixed pagination controls not rendering after filtering
+# IBM/mcp-context-forge — PR #3206 — Fixed pagination controls not rendering after filtering
 
 **Repo:** [IBM/mcp-context-forge](https://github.com/IBM/mcp-context-forge)
-**PR:** [#3047](https://github.com/IBM/mcp-context-forge/pull/3047)
+**PR:** [#3206](https://github.com/IBM/mcp-context-forge/pull/3206)
 **Issue:** [#3039](https://github.com/IBM/mcp-context-forge/issues/3039)
 **Status:** confirmed
 **Area:** bugfix / UI
@@ -42,4 +42,4 @@ MCP Context Forge's admin panel uses HTMX for partial page updates and Alpine.js
 - Verified page navigation works correctly after filtering
 
 ## Review notes
-- **Feedback:** Maintainer approved — described it as a "clean fix for the Alpine.js / HTMX OOB race condition" and confirmed the `_x_dataStack` guard ensures idempotent initialization.
+- **Feedback:** Maintainer recreated this PR from my original [#3047](https://github.com/IBM/mcp-context-forge/pull/3047) during repository maintenance, crediting me as co-author.

@@ -1,7 +1,7 @@
-# IBM/mcp-context-forge — PR #3103 — Prevented browser crashes on large teams by switching to search-only non-member loading
+# IBM/mcp-context-forge — PR #3209 — Prevented browser crashes on large teams by switching to search-only non-member loading
 
 **Repo:** [IBM/mcp-context-forge](https://github.com/IBM/mcp-context-forge)
-**PR:** [#3103](https://github.com/IBM/mcp-context-forge/pull/3103)
+**PR:** [#3209](https://github.com/IBM/mcp-context-forge/pull/3209)
 **Issue:** [#3085](https://github.com/IBM/mcp-context-forge/issues/3085)
 **Status:** confirmed
 **Area:** bugfix / UI
@@ -39,4 +39,4 @@ MCP Context Forge's Teams page includes a "Manage Members" modal for adding and 
 - `make coverage` >= 80%
 
 ## Review notes
-- **Feedback:** Awaiting review from code owners.
+- **Feedback:** Maintainer recreated this PR from my original [#3103](https://github.com/IBM/mcp-context-forge/pull/3103) during repository maintenance, crediting me as co-author.

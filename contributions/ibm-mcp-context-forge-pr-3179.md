@@ -1,7 +1,7 @@
-# IBM/mcp-context-forge — PR #3100 — Fixed broken Fetch Tools button caused by tojson quote corruption
+# IBM/mcp-context-forge — PR #3179 — Fixed broken Fetch Tools button caused by tojson quote corruption
 
 **Repo:** [IBM/mcp-context-forge](https://github.com/IBM/mcp-context-forge)
-**PR:** [#3100](https://github.com/IBM/mcp-context-forge/pull/3100)
+**PR:** [#3179](https://github.com/IBM/mcp-context-forge/pull/3179)
 **Issue:** [#3082](https://github.com/IBM/mcp-context-forge/issues/3082)
 **Status:** confirmed
 **Area:** bugfix
@@ -37,4 +37,4 @@ MCP Context Forge's admin Gateways page includes a "Fetch Tools" button for each
 - `make coverage` >= 80%
 
 ## Review notes
-- **Feedback:** Awaiting review from code owners.
+- **Feedback:** Maintainer recreated this PR from my original [#3100](https://github.com/IBM/mcp-context-forge/pull/3100) during repository maintenance, crediting me as co-author.

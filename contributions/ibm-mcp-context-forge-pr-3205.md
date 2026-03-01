@@ -1,7 +1,7 @@
-# IBM/mcp-context-forge — PR #3021 — Surfaced toast notifications for user deletion errors
+# IBM/mcp-context-forge — PR #3205 — Surfaced toast notifications for user deletion errors
 
 **Repo:** [IBM/mcp-context-forge](https://github.com/IBM/mcp-context-forge)
-**PR:** [#3021](https://github.com/IBM/mcp-context-forge/pull/3021)
+**PR:** [#3205](https://github.com/IBM/mcp-context-forge/pull/3205)
 **Issue:** [#3015](https://github.com/IBM/mcp-context-forge/issues/3015)
 **Status:** confirmed
 **Area:** bugfix / UI
@@ -39,4 +39,4 @@ MCP Context Forge's admin dashboard allows administrators to delete users. The d
 - Confirmed successful deletions still work normally
 
 ## Review notes
-- **Feedback:** Both reviewers approved — one suggested extracting the inline handler into a named function (implemented). Maintainer called it a "clean" and "important UX fix."
+- **Feedback:** Maintainer recreated this PR from my original [#3021](https://github.com/IBM/mcp-context-forge/pull/3021) during repository maintenance, crediting me as co-author.

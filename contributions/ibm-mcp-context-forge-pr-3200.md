@@ -1,7 +1,7 @@
-# IBM/mcp-context-forge — PR #2979 — Added json_prune plugin to strip unnecessary fields from tool outputs
+# IBM/mcp-context-forge — PR #3200 — Added json_prune plugin to strip unnecessary fields from tool outputs
 
 **Repo:** [IBM/mcp-context-forge](https://github.com/IBM/mcp-context-forge)
-**PR:** [#2979](https://github.com/IBM/mcp-context-forge/pull/2979)
+**PR:** [#3200](https://github.com/IBM/mcp-context-forge/pull/3200)
 **Issue:** [#2971](https://github.com/IBM/mcp-context-forge/issues/2971)
 **Status:** confirmed
 **Area:** feature / plugins
@@ -33,4 +33,4 @@ MCP Context Forge's plugin system allows post-processing of tool invocation resu
 - Support for both result formats validated
 
 ## Review notes
-- **Feedback:** Maintainer approved — praised the "clean separation between pruning algorithm and dispatch logic," highlighted comprehensive 21-test coverage and appropriate safety defaults.
+- **Feedback:** Maintainer recreated this PR from my original [#2979](https://github.com/IBM/mcp-context-forge/pull/2979) during repository maintenance, crediting me as co-author.

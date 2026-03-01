@@ -1,7 +1,7 @@
-# IBM/mcp-context-forge — PR #2959 — Fixed external plugin loading by wiring plugin_dirs config into sys.path
+# IBM/mcp-context-forge — PR #3215 — Fixed external plugin loading by wiring plugin_dirs config into sys.path
 
 **Repo:** [IBM/mcp-context-forge](https://github.com/IBM/mcp-context-forge)
-**PR:** [#2959](https://github.com/IBM/mcp-context-forge/pull/2959)
+**PR:** [#3215](https://github.com/IBM/mcp-context-forge/pull/3215)
 **Issue:** [#2935](https://github.com/IBM/mcp-context-forge/issues/2935)
 **Status:** confirmed
 **Area:** bugfix / plugins
@@ -36,4 +36,4 @@ MCP Context Forge supports a plugin system with a `PluginManager` that discovers
 - `pytest tests/unit/mcpgateway/plugins/framework/test_manager.py -v` — 13/13 passed
 
 ## Review notes
-- **Feedback:** Two maintainers approved — described the fix as "clean and minimal" and praised the test quality for covering both adding and removing plugins.
+- **Feedback:** Maintainer recreated this PR from my original [#2959](https://github.com/IBM/mcp-context-forge/pull/2959) during repository maintenance, crediting me as co-author.

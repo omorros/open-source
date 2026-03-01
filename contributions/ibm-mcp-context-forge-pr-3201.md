@@ -1,7 +1,7 @@
-# IBM/mcp-context-forge — PR #2980 — Restored admin gateway token reveal toggle broken by masked() regression
+# IBM/mcp-context-forge — PR #3201 — Restored admin gateway token reveal toggle broken by masked() regression
 
 **Repo:** [IBM/mcp-context-forge](https://github.com/IBM/mcp-context-forge)
-**PR:** [#2980](https://github.com/IBM/mcp-context-forge/pull/2980)
+**PR:** [#3201](https://github.com/IBM/mcp-context-forge/pull/3201)
 **Issue:** [#2968](https://github.com/IBM/mcp-context-forge/issues/2968)
 **Status:** confirmed
 **Area:** bugfix / security
@@ -41,4 +41,4 @@ MCP Context Forge's admin dashboard includes a "Show" toggle on the Gateways pag
 - Manual test: Admin UI "Show" toggle working
 
 ## Review notes
-- **Feedback:** Maintainer approved — called it an "important security fix" and confirmed the safe-by-default parameter design (opt-in only for the admin endpoint).
+- **Feedback:** Maintainer recreated this PR from my original [#2980](https://github.com/IBM/mcp-context-forge/pull/2980) during repository maintenance, crediting me as co-author.

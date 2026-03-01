@@ -1,7 +1,7 @@
-# IBM/mcp-context-forge — PR #3095 — Added regression test coverage for prompt original_name during federation
+# IBM/mcp-context-forge — PR #3208 — Added regression test coverage for prompt original_name during federation
 
 **Repo:** [IBM/mcp-context-forge](https://github.com/IBM/mcp-context-forge)
-**PR:** [#3095](https://github.com/IBM/mcp-context-forge/pull/3095)
+**PR:** [#3208](https://github.com/IBM/mcp-context-forge/pull/3208)
 **Issue:** [#3087](https://github.com/IBM/mcp-context-forge/issues/3087)
 **Status:** confirmed
 **Area:** testing
@@ -32,4 +32,4 @@ MCP Context Forge federates prompts from registered gateway servers. Issue #3087
 - `make coverage` >= 80% — passed
 
 ## Review notes
-- **Feedback:** Awaiting review from code owners.
+- **Feedback:** Maintainer recreated this PR from my original [#3095](https://github.com/IBM/mcp-context-forge/pull/3095) during repository maintenance, crediting me as co-author.
