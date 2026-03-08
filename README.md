@@ -4,7 +4,7 @@ Small, review-ready PRs across active OSS codebases: UI fixes, regression tests,
 
 ## Flagship contributions: IBM/mcp-context-forge
 
-[MCP Context Forge](https://github.com/IBM/mcp-context-forge) is an IBM open-source project for a Model Context Protocol (MCP) gateway, registry, and proxy, with an optional Admin UI for management and monitoring. I shipped 14 PRs — 5 merged and 9 confirmed for the next release — spanning UI fixes, security hardening, plugin development, schema corrections, and test reliability.
+[MCP Context Forge](https://github.com/IBM/mcp-context-forge) is an IBM open-source project for a Model Context Protocol (MCP) gateway, registry, and proxy, with an optional Admin UI for management and monitoring. I shipped 15 PRs — 6 merged and 9 confirmed for the next release — spanning UI fixes, security hardening, plugin development, schema corrections, and test reliability.
 
 
 Featured case studies (IBM)
@@ -39,6 +39,7 @@ Featured case studies (IBM)
 | IBM/mcp-context-forge | [#3201](https://github.com/IBM/mcp-context-forge/pull/3201) | Restored admin gateway token reveal toggle broken by `masked()` regression | Security | Confirmed | [Read](./contributions/ibm-mcp-context-forge-pr-3201.md) |
 | IBM/mcp-context-forge | [#3200](https://github.com/IBM/mcp-context-forge/pull/3200) | Added `json_prune` plugin to whitelist-strip unnecessary fields from tool outputs | Plugins | Confirmed | [Read](./contributions/ibm-mcp-context-forge-pr-3200.md) |
 | IBM/mcp-context-forge | [#3215](https://github.com/IBM/mcp-context-forge/pull/3215) | Fixed external plugin loading by wiring `plugin_dirs` config into `sys.path` | Plugins | Confirmed | [Read](./contributions/ibm-mcp-context-forge-pr-3215.md) |
+| IBM/mcp-context-forge | [#3402](https://github.com/IBM/mcp-context-forge/pull/3402) | Preserved visibility selection when editing entities | UI | Merged | [Read](./contributions/ibm-mcp-context-forge-pr-3402.md) |
 
 ## Other OSS (Additional)
 
