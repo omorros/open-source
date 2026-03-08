@@ -4,7 +4,7 @@ Small, review-ready PRs across active OSS codebases: UI fixes, regression tests,
 
 ## Flagship contributions: IBM/mcp-context-forge
 
-[MCP Context Forge](https://github.com/IBM/mcp-context-forge) is an IBM open-source project for a Model Context Protocol (MCP) gateway, registry, and proxy, with an optional Admin UI for management and monitoring. I shipped 15 PRs — 6 merged and 9 confirmed for the next release — spanning UI fixes, security hardening, plugin development, schema corrections, and test reliability.
+[MCP Context Forge](https://github.com/IBM/mcp-context-forge) is an IBM open-source project for a Model Context Protocol (MCP) gateway, registry, and proxy, with an optional Admin UI for management and monitoring. I shipped 6 merged PRs spanning UI fixes, security hardening, schema corrections, and test reliability.
 
 
 Featured case studies (IBM)
@@ -30,15 +30,6 @@ Featured case studies (IBM)
 | IBM/mcp-context-forge | [#2950](https://github.com/IBM/mcp-context-forge/pull/2950) | Standardized loading indicators across 4 admin pages | UI | Merged | [Read](./contributions/ibm-mcp-context-forge-pr-2950.md) |
 | IBM/mcp-context-forge | [#2937](https://github.com/IBM/mcp-context-forge/pull/2937) | Prevented modal overflow that hid Save for large teams | UI | Merged | [Read](./contributions/ibm-mcp-context-forge-pr-2937.md) |
 | IBM/mcp-context-forge | [#2892](https://github.com/IBM/mcp-context-forge/pull/2892) | Removed duplicate loading spinner on A2A Agents | UI | Merged | [Read](./contributions/ibm-mcp-context-forge-pr-2892.md) |
-| IBM/mcp-context-forge | [#3209](https://github.com/IBM/mcp-context-forge/pull/3209) | Prevented browser crashes on 20K+ users by switching to search-only non-member loading | UI | Confirmed | [Read](./contributions/ibm-mcp-context-forge-pr-3209.md) |
-| IBM/mcp-context-forge | [#3179](https://github.com/IBM/mcp-context-forge/pull/3179) | Fixed broken Fetch Tools button caused by `tojson` quote corruption | Bugfix | Confirmed | [Read](./contributions/ibm-mcp-context-forge-pr-3179.md) |
-| IBM/mcp-context-forge | [#3208](https://github.com/IBM/mcp-context-forge/pull/3208) | Added regression test coverage for prompt `original_name` during federation | Testing | Confirmed | [Read](./contributions/ibm-mcp-context-forge-pr-3208.md) |
-| IBM/mcp-context-forge | [#3206](https://github.com/IBM/mcp-context-forge/pull/3206) | Fixed pagination controls not rendering after filtering (Alpine.js reinit) | UI | Confirmed | [Read](./contributions/ibm-mcp-context-forge-pr-3206.md) |
-| IBM/mcp-context-forge | [#3205](https://github.com/IBM/mcp-context-forge/pull/3205) | Surfaced toast notifications for user deletion errors instead of silent discard | UI | Confirmed | [Read](./contributions/ibm-mcp-context-forge-pr-3205.md) |
-| IBM/mcp-context-forge | [#3204](https://github.com/IBM/mcp-context-forge/pull/3204) | Persisted admin table filters (search, tags, toggles) across pagination | UI | Confirmed | [Read](./contributions/ibm-mcp-context-forge-pr-3204.md) |
-| IBM/mcp-context-forge | [#3201](https://github.com/IBM/mcp-context-forge/pull/3201) | Restored admin gateway token reveal toggle broken by `masked()` regression | Security | Confirmed | [Read](./contributions/ibm-mcp-context-forge-pr-3201.md) |
-| IBM/mcp-context-forge | [#3200](https://github.com/IBM/mcp-context-forge/pull/3200) | Added `json_prune` plugin to whitelist-strip unnecessary fields from tool outputs | Plugins | Confirmed | [Read](./contributions/ibm-mcp-context-forge-pr-3200.md) |
-| IBM/mcp-context-forge | [#3215](https://github.com/IBM/mcp-context-forge/pull/3215) | Fixed external plugin loading by wiring `plugin_dirs` config into `sys.path` | Plugins | Confirmed | [Read](./contributions/ibm-mcp-context-forge-pr-3215.md) |
 | IBM/mcp-context-forge | [#3402](https://github.com/IBM/mcp-context-forge/pull/3402) | Preserved visibility selection when editing entities | UI | Merged | [Read](./contributions/ibm-mcp-context-forge-pr-3402.md) |
 
 ## Other OSS (Additional)
