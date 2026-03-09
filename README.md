@@ -24,24 +24,24 @@ Featured case studies (IBM)
 
 ## IBM (Flagship)
 
-| Repo | PR | Outcome | Area | Status | Case study |
-|---|---|---|---|---|---|
-| IBM/mcp-context-forge | [#3544](https://github.com/IBM/mcp-context-forge/pull/3544) | Fixed `decode_auth` crash on masked credentials in gateway test endpoint | Backend | Merged | [Read](./contributions/ibm-mcp-context-forge-pr-3544.md) |
-| IBM/mcp-context-forge | [#3210](https://github.com/IBM/mcp-context-forge/pull/3210) | Eliminated Playwright flakiness via JWT-first auth and HTMX-aware waits | Testing | Merged | [Read](./contributions/ibm-mcp-context-forge-pr-3210.md) |
-| IBM/mcp-context-forge | [#3402](https://github.com/IBM/mcp-context-forge/pull/3402) | Preserved visibility selection when editing entities | UI | Merged | [Read](./contributions/ibm-mcp-context-forge-pr-3402.md) |
-| IBM/mcp-context-forge | [#3185](https://github.com/IBM/mcp-context-forge/pull/3185) | Widened `ServerCapabilities` fields to `Dict[str, Any]` to match MCP SDK | Backend | Merged | [Read](./contributions/ibm-mcp-context-forge-pr-3185.md) |
-| IBM/mcp-context-forge | [#2950](https://github.com/IBM/mcp-context-forge/pull/2950) | Standardized loading indicators across 4 admin pages | UI | Merged | [Read](./contributions/ibm-mcp-context-forge-pr-2950.md) |
-| IBM/mcp-context-forge | [#2937](https://github.com/IBM/mcp-context-forge/pull/2937) | Prevented modal overflow that hid Save for large teams | UI | Merged | [Read](./contributions/ibm-mcp-context-forge-pr-2937.md) |
-| IBM/mcp-context-forge | [#2892](https://github.com/IBM/mcp-context-forge/pull/2892) | Removed duplicate loading spinner on A2A Agents | UI | Merged | [Read](./contributions/ibm-mcp-context-forge-pr-2892.md) |
+| Repo | PR | Outcome | Area | Case study |
+|---|---|---|---|---|
+| IBM/mcp-context-forge | [#3544](https://github.com/IBM/mcp-context-forge/pull/3544) | Fixed `decode_auth` crash on masked credentials in gateway test endpoint | Backend | [Read](./contributions/ibm-mcp-context-forge-pr-3544.md) |
+| IBM/mcp-context-forge | [#3210](https://github.com/IBM/mcp-context-forge/pull/3210) | Eliminated Playwright flakiness via JWT-first auth and HTMX-aware waits | Testing | [Read](./contributions/ibm-mcp-context-forge-pr-3210.md) |
+| IBM/mcp-context-forge | [#3402](https://github.com/IBM/mcp-context-forge/pull/3402) | Preserved visibility selection when editing entities | UI | [Read](./contributions/ibm-mcp-context-forge-pr-3402.md) |
+| IBM/mcp-context-forge | [#3185](https://github.com/IBM/mcp-context-forge/pull/3185) | Widened `ServerCapabilities` fields to `Dict[str, Any]` to match MCP SDK | Backend | [Read](./contributions/ibm-mcp-context-forge-pr-3185.md) |
+| IBM/mcp-context-forge | [#2950](https://github.com/IBM/mcp-context-forge/pull/2950) | Standardized loading indicators across 4 admin pages | UI | [Read](./contributions/ibm-mcp-context-forge-pr-2950.md) |
+| IBM/mcp-context-forge | [#2937](https://github.com/IBM/mcp-context-forge/pull/2937) | Prevented modal overflow that hid Save for large teams | UI | [Read](./contributions/ibm-mcp-context-forge-pr-2937.md) |
+| IBM/mcp-context-forge | [#2892](https://github.com/IBM/mcp-context-forge/pull/2892) | Removed duplicate loading spinner on A2A Agents | UI | [Read](./contributions/ibm-mcp-context-forge-pr-2892.md) |
 
 ## Other OSS (Additional)
 
-| Repo | PR | Outcome | Area | Status | Case study |
-|---|---|---|---|---|---|
-| DjangoCRM/django-crm | [#388](https://github.com/DjangoCRM/django-crm/pull/388) | Added 19 unit tests for previously untested AJAX view | Testing | Merged | [Read](./contributions/djangocrm-django-crm-pr-388.md) |
-| korcankaraokcu/PINCE | [#312](https://github.com/korcankaraokcu/PINCE/pull/312) | Fixed arrow-key scrolling and selection sync in hex viewer | UI | Merged | [Read](./contributions/korcankaraokcu-pince-pr-312.md) |
-| marketcalls/openalgo | [#899](https://github.com/marketcalls/openalgo/pull/899) | Added dynamic aria-labels to inline-edit inputs | Accessibility | Merged | [Read](./contributions/marketcalls-openalgo-pr-899.md) |
-| marketcalls/openalgo | [#900](https://github.com/marketcalls/openalgo/pull/900) | Replaced silent failures with toast plus inline error UI | Reliability | Merged | [Read](./contributions/marketcalls-openalgo-pr-900.md) |
+| Repo | PR | Outcome | Area | Case study |
+|---|---|---|---|---|
+| DjangoCRM/django-crm | [#388](https://github.com/DjangoCRM/django-crm/pull/388) | Added 19 unit tests for previously untested AJAX view | Testing | [Read](./contributions/djangocrm-django-crm-pr-388.md) |
+| korcankaraokcu/PINCE | [#312](https://github.com/korcankaraokcu/PINCE/pull/312) | Fixed arrow-key scrolling and selection sync in hex viewer | UI | [Read](./contributions/korcankaraokcu-pince-pr-312.md) |
+| marketcalls/openalgo | [#899](https://github.com/marketcalls/openalgo/pull/899) | Added dynamic aria-labels to inline-edit inputs | Accessibility | [Read](./contributions/marketcalls-openalgo-pr-899.md) |
+| marketcalls/openalgo | [#900](https://github.com/marketcalls/openalgo/pull/900) | Replaced silent failures with toast plus inline error UI | Reliability | [Read](./contributions/marketcalls-openalgo-pr-900.md) |
 
 ---
 
