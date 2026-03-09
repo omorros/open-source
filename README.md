@@ -4,11 +4,12 @@ Small, review-ready PRs across active OSS codebases: UI fixes, regression tests,
 
 ## Flagship contributions: IBM/mcp-context-forge
 
-[MCP Context Forge](https://github.com/IBM/mcp-context-forge) is an IBM open-source project for a Model Context Protocol (MCP) gateway, registry, and proxy, with an optional Admin UI for management and monitoring. I shipped 6 merged PRs spanning UI fixes, security hardening, schema corrections, and test reliability.
+[MCP Context Forge](https://github.com/IBM/mcp-context-forge) is an IBM open-source project for a Model Context Protocol (MCP) gateway, registry, and proxy, with an optional Admin UI for management and monitoring. I shipped 7 merged PRs spanning UI fixes, security hardening, schema corrections, and test reliability.
 
 
 Featured case studies (IBM)
 
+- `admin_test_gateway` crashed with a cryptography error because it called `decode_auth()` on a masked `"*****"` value instead of the real DB credential. Switched to a direct ORM query and guarded decryption by `auth_type`. [Case study](./contributions/ibm-mcp-context-forge-pr-3544.md)
 - Playwright E2E tests failed intermittently from shared auth state and hard-coded sleeps. Replaced with per-test JWT injection and HTMX-aware DOM waits. [Case study](./contributions/ibm-mcp-context-forge-pr-3210.md)
 - `ServerCapabilities` rejected non-boolean values that the MCP SDK permits. Widened three fields from `Dict[str, bool]` to `Dict[str, Any]` to match the SDK's permissive approach. [Case study](./contributions/ibm-mcp-context-forge-pr-3185.md)
 - Four admin pages used inconsistent loading states (CSS spinner, pulsing text, plain text, inconsistent spacing). Standardized them to the single SVG spinner pattern already used across the UI. [Case study](./contributions/ibm-mcp-context-forge-pr-2950.md)
@@ -25,12 +26,13 @@ Featured case studies (IBM)
 
 | Repo | PR | Outcome | Area | Status | Case study |
 |---|---|---|---|---|---|
+| IBM/mcp-context-forge | [#3544](https://github.com/IBM/mcp-context-forge/pull/3544) | Fixed `decode_auth` crash on masked credentials in gateway test endpoint | Backend | Merged | [Read](./contributions/ibm-mcp-context-forge-pr-3544.md) |
 | IBM/mcp-context-forge | [#3210](https://github.com/IBM/mcp-context-forge/pull/3210) | Eliminated Playwright flakiness via JWT-first auth and HTMX-aware waits | Testing | Merged | [Read](./contributions/ibm-mcp-context-forge-pr-3210.md) |
+| IBM/mcp-context-forge | [#3402](https://github.com/IBM/mcp-context-forge/pull/3402) | Preserved visibility selection when editing entities | UI | Merged | [Read](./contributions/ibm-mcp-context-forge-pr-3402.md) |
 | IBM/mcp-context-forge | [#3185](https://github.com/IBM/mcp-context-forge/pull/3185) | Widened `ServerCapabilities` fields to `Dict[str, Any]` to match MCP SDK | Backend | Merged | [Read](./contributions/ibm-mcp-context-forge-pr-3185.md) |
 | IBM/mcp-context-forge | [#2950](https://github.com/IBM/mcp-context-forge/pull/2950) | Standardized loading indicators across 4 admin pages | UI | Merged | [Read](./contributions/ibm-mcp-context-forge-pr-2950.md) |
 | IBM/mcp-context-forge | [#2937](https://github.com/IBM/mcp-context-forge/pull/2937) | Prevented modal overflow that hid Save for large teams | UI | Merged | [Read](./contributions/ibm-mcp-context-forge-pr-2937.md) |
 | IBM/mcp-context-forge | [#2892](https://github.com/IBM/mcp-context-forge/pull/2892) | Removed duplicate loading spinner on A2A Agents | UI | Merged | [Read](./contributions/ibm-mcp-context-forge-pr-2892.md) |
-| IBM/mcp-context-forge | [#3402](https://github.com/IBM/mcp-context-forge/pull/3402) | Preserved visibility selection when editing entities | UI | Merged | [Read](./contributions/ibm-mcp-context-forge-pr-3402.md) |
 
 ## Other OSS (Additional)
 
