@@ -4,7 +4,7 @@ Small, review-ready PRs across active OSS codebases: UI fixes, regression tests,
 
 ## Flagship contributions: IBM/mcp-context-forge
 
-[MCP Context Forge](https://github.com/IBM/mcp-context-forge) is an IBM open-source project for a Model Context Protocol (MCP) gateway, registry, and proxy, with an optional Admin UI for management and monitoring. I shipped 7 merged PRs spanning UI fixes, security hardening, schema corrections, and test reliability.
+[MCP Context Forge](https://github.com/IBM/mcp-context-forge) is an IBM open-source project for a Model Context Protocol (MCP) gateway, registry, and proxy, with an optional Admin UI for management and monitoring. I shipped 8 merged PRs spanning UI fixes, security hardening, schema corrections, and test reliability.
 
 
 Featured case studies (IBM)
@@ -26,6 +26,7 @@ Featured case studies (IBM)
 | Repo | PR | Outcome | Area | Case study |
 |---|---|---|---|---|
 | IBM/mcp-context-forge | [#3544](https://github.com/IBM/mcp-context-forge/pull/3544) | Fixed `decode_auth` crash on masked credentials in gateway test endpoint | Backend | [Read](./contributions/ibm-mcp-context-forge-pr-3544.md) |
+| IBM/mcp-context-forge | [#3370](https://github.com/IBM/mcp-context-forge/pull/3370) | Eliminated Playwright agents modal test flake by removing legacy hidden table | Testing | [Read](./contributions/ibm-mcp-context-forge-pr-3370.md) |
 | IBM/mcp-context-forge | [#3210](https://github.com/IBM/mcp-context-forge/pull/3210) | Eliminated Playwright flakiness via JWT-first auth and HTMX-aware waits | Testing | [Read](./contributions/ibm-mcp-context-forge-pr-3210.md) |
 | IBM/mcp-context-forge | [#3185](https://github.com/IBM/mcp-context-forge/pull/3185) | Widened `ServerCapabilities` fields to `Dict[str, Any]` to match MCP SDK | Backend | [Read](./contributions/ibm-mcp-context-forge-pr-3185.md) |
 | IBM/mcp-context-forge | [#3402](https://github.com/IBM/mcp-context-forge/pull/3402) | Preserved visibility selection when editing entities | UI | [Read](./contributions/ibm-mcp-context-forge-pr-3402.md) |
