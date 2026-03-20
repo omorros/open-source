@@ -3,7 +3,7 @@
 **Repo:** [IBM/mcp-context-forge](https://github.com/IBM/mcp-context-forge)
 **PR:** [#3205](https://github.com/IBM/mcp-context-forge/pull/3205)
 **Issue:** [#3015](https://github.com/IBM/mcp-context-forge/issues/3015)
-**Status:** confirmed
+**Status:** merged
 **Area:** bugfix / UI
 **Stack:** HTML, JavaScript, HTMX
 **Impact:** Admins now see clear error messages when user deletion fails (self-deletion, last admin, DB error) instead of the error being silently discarded.
@@ -40,3 +40,5 @@ MCP Context Forge's admin dashboard allows administrators to delete users. The d
 
 ## Review notes
 - **Feedback:** Maintainer recreated this PR from my original [#3021](https://github.com/IBM/mcp-context-forge/pull/3021) during repository maintenance, crediting me as co-author.
+- **Iteration:** Extracted inline handler into a named `handleDeleteUserError()` function in `admin.js` after reviewer feedback. Replaced `var` with `const` for lint compliance and exposed the handler on `window` for template access. Added unit tests for the handler function.
+- **Approval:** Reviewer approved with "LGTM" after reviewing related PR #3012.
