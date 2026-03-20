@@ -3,7 +3,7 @@
 **Repo:** [IBM/mcp-context-forge](https://github.com/IBM/mcp-context-forge)
 **PR:** [#3206](https://github.com/IBM/mcp-context-forge/pull/3206)
 **Issue:** [#3039](https://github.com/IBM/mcp-context-forge/issues/3039)
-**Status:** confirmed
+**Status:** merged
 **Area:** bugfix / UI
 **Stack:** HTML, JavaScript, Alpine.js, HTMX
 **Impact:** Pagination controls (page info text, navigation buttons) now render correctly after filtering or searching any admin table.
@@ -31,9 +31,9 @@ MCP Context Forge's admin panel uses HTMX for partial page updates and Alpine.js
 - **Actual:** Pagination controls vanish entirely
 
 ## Fix / Changes
-- `admin.js`: Added an `htmx:afterSettle` listener that explicitly calls `Alpine.initTree()` on uninitialized pagination controls (guarded by `_x_dataStack` absence check to avoid double-initialization). Selector `[id$="-pagination-controls"]` is well-scoped.
+- `admin.js`: Added an `htmx:afterSettle` listener that explicitly calls `Alpine.initTree()` on uninitialized pagination controls (guarded by `_x_dataStack` absence check to avoid double-initialization). Broadened selector from `[id$="-pagination-controls"]` to `[id*="-pagination-controls"]` to also capture metrics dashboard IDs like `top-tools-pagination-controls-visible`
 - `admin.html`: Set `hx_swap='outerHTML'` for 5 initial pagination renders
-- 7 partial templates (tools, servers, resources, prompts, gateways, agents, tokens): Added `{% set hx_swap = 'outerHTML' %}`
+- 8 partial templates (tools, servers, resources, prompts, gateways, agents, tokens, teams): Added `{% set hx_swap = 'outerHTML' %}`
 
 ## Testing / Verification
 **Checks**
