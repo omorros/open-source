@@ -4,7 +4,7 @@ Small, review-ready PRs across active OSS codebases: UI fixes, regression tests,
 
 ## Flagship contributions: IBM/mcp-context-forge
 
-[MCP Context Forge](https://github.com/IBM/mcp-context-forge) is an IBM open-source project for a Model Context Protocol (MCP) gateway, registry, and proxy, with an optional Admin UI for management and monitoring. I shipped 8 merged PRs spanning UI fixes, security hardening, schema corrections, and test reliability.
+[MCP Context Forge](https://github.com/IBM/mcp-context-forge) is an IBM open-source project for a Model Context Protocol (MCP) gateway, registry, and proxy, with an optional Admin UI for management and monitoring. I shipped 10 merged PRs spanning UI fixes, security hardening, schema corrections, and test reliability.
 
 
 Featured case studies (IBM)
@@ -32,6 +32,8 @@ Featured case studies (IBM)
 | IBM/mcp-context-forge | [#3402](https://github.com/IBM/mcp-context-forge/pull/3402) | Preserved visibility selection when editing entities | UI | [Read](./contributions/ibm-mcp-context-forge-pr-3402.md) |
 | IBM/mcp-context-forge | [#2950](https://github.com/IBM/mcp-context-forge/pull/2950) | Standardized loading indicators across 4 admin pages | UI | [Read](./contributions/ibm-mcp-context-forge-pr-2950.md) |
 | IBM/mcp-context-forge | [#2937](https://github.com/IBM/mcp-context-forge/pull/2937) | Prevented modal overflow that hid Save for large teams | UI | [Read](./contributions/ibm-mcp-context-forge-pr-2937.md) |
+| IBM/mcp-context-forge | [#3205](https://github.com/IBM/mcp-context-forge/pull/3205) | Surfaced toast notifications for user deletion errors | UI | [Read](./contributions/ibm-mcp-context-forge-pr-3205.md) |
+| IBM/mcp-context-forge | [#3206](https://github.com/IBM/mcp-context-forge/pull/3206) | Fixed pagination controls vanishing after filtering (Alpine.js reinit) | UI | [Read](./contributions/ibm-mcp-context-forge-pr-3206.md) |
 | IBM/mcp-context-forge | [#2892](https://github.com/IBM/mcp-context-forge/pull/2892) | Removed duplicate loading spinner on A2A Agents | UI | [Read](./contributions/ibm-mcp-context-forge-pr-2892.md) |
 
 ## Other OSS (Additional)
