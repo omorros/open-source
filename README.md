@@ -4,7 +4,7 @@ Small, review-ready PRs across active OSS codebases: UI fixes, regression tests,
 
 ## Flagship contributions: IBM/mcp-context-forge
 
-[MCP Context Forge](https://github.com/IBM/mcp-context-forge) is an IBM open-source project for a Model Context Protocol (MCP) gateway, registry, and proxy, with an optional Admin UI for management and monitoring. I shipped 10 merged PRs spanning UI fixes, security hardening, schema corrections, and test reliability.
+[MCP Context Forge](https://github.com/IBM/mcp-context-forge) is an IBM open-source project for a Model Context Protocol (MCP) gateway, registry, and proxy, with an optional Admin UI for management and monitoring. I shipped 12 merged PRs spanning UI fixes, security hardening, schema corrections, and test reliability.
 
 
 Featured case studies (IBM)
@@ -29,6 +29,8 @@ Featured case studies (IBM)
 | IBM/mcp-context-forge | [#3370](https://github.com/IBM/mcp-context-forge/pull/3370) | Eliminated Playwright agents modal test flake by removing legacy hidden table | Testing | [Read](./contributions/ibm-mcp-context-forge-pr-3370.md) |
 | IBM/mcp-context-forge | [#3210](https://github.com/IBM/mcp-context-forge/pull/3210) | Eliminated Playwright flakiness via JWT-first auth and HTMX-aware waits | Testing | [Read](./contributions/ibm-mcp-context-forge-pr-3210.md) |
 | IBM/mcp-context-forge | [#3185](https://github.com/IBM/mcp-context-forge/pull/3185) | Widened `ServerCapabilities` fields to `Dict[str, Any]` to match MCP SDK | Backend | [Read](./contributions/ibm-mcp-context-forge-pr-3185.md) |
+| IBM/mcp-context-forge | [#3647](https://github.com/IBM/mcp-context-forge/pull/3647) | Persisted admin table filters across HTMX pagination and partial refresh | UI | [Read](./contributions/ibm-mcp-context-forge-pr-3647.md) |
+| IBM/mcp-context-forge | [#3610](https://github.com/IBM/mcp-context-forge/pull/3610) | Fixed browser crashes on large teams by switching to search-only non-member loading | UI | [Read](./contributions/ibm-mcp-context-forge-pr-3610.md) |
 | IBM/mcp-context-forge | [#3402](https://github.com/IBM/mcp-context-forge/pull/3402) | Preserved visibility selection when editing entities | UI | [Read](./contributions/ibm-mcp-context-forge-pr-3402.md) |
 | IBM/mcp-context-forge | [#2950](https://github.com/IBM/mcp-context-forge/pull/2950) | Standardized loading indicators across 4 admin pages | UI | [Read](./contributions/ibm-mcp-context-forge-pr-2950.md) |
 | IBM/mcp-context-forge | [#2937](https://github.com/IBM/mcp-context-forge/pull/2937) | Prevented modal overflow that hid Save for large teams | UI | [Read](./contributions/ibm-mcp-context-forge-pr-2937.md) |
