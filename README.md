@@ -17,9 +17,9 @@
 | IBM/mcp-context-forge | [#3206](https://github.com/IBM/mcp-context-forge/pull/3206) | Fixed pagination controls vanishing after filtering (Alpine.js reinit) | UI | [Read](./contributions/ibm-mcp-context-forge-pr-3206.md) |
 | IBM/mcp-context-forge | [#2950](https://github.com/IBM/mcp-context-forge/pull/2950) | Standardized loading indicators across 4 admin pages | UI | [Read](./contributions/ibm-mcp-context-forge-pr-2950.md) |
 | IBM/mcp-context-forge | [#2937](https://github.com/IBM/mcp-context-forge/pull/2937) | Prevented modal overflow that hid Save for large teams | UI | [Read](./contributions/ibm-mcp-context-forge-pr-2937.md) |
-| IBM/mcp-context-forge | [#2892](https://github.com/IBM/mcp-context-forge/pull/2892) | Removed duplicate loading spinner on A2A Agents | UI | [Read](./contributions/ibm-mcp-context-forge-pr-2892.md) |
 | IBM/mcp-context-forge | [#3370](https://github.com/IBM/mcp-context-forge/pull/3370) | Eliminated Playwright agents modal test flake by removing legacy hidden table | Testing | [Read](./contributions/ibm-mcp-context-forge-pr-3370.md) |
 | IBM/mcp-context-forge | [#3210](https://github.com/IBM/mcp-context-forge/pull/3210) | Eliminated Playwright flakiness via JWT-first auth and HTMX-aware waits | Testing | [Read](./contributions/ibm-mcp-context-forge-pr-3210.md) |
+| IBM/mcp-context-forge | [#2892](https://github.com/IBM/mcp-context-forge/pull/2892) | Removed duplicate loading spinner on A2A Agents | UI | [Read](./contributions/ibm-mcp-context-forge-pr-2892.md) |
 | IBM/mcp-context-forge | [#3708](https://github.com/IBM/mcp-context-forge/pull/3708) | Removed unused `PaginationParams`, `ObservabilityQueryParams`, and `PerformanceHistoryParams` schemas | Cleanup | [Read](./contributions/ibm-mcp-context-forge-pr-3708.md) |
 
 ## Other OSS
