@@ -1,3 +1,70 @@
+# README Redesign Implementation Plan
+
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+
+**Goal:** Redesign the OSS contributions README from a flat table into a portfolio-grade page with highlight cards, compact tables, and curated social proof.
+
+**Architecture:** Replace README.md content entirely. Delete 7 orphaned case study files. No new files created beyond the README rewrite.
+
+**Tech Stack:** Markdown (GitHub-flavored)
+
+**Spec:** `docs/superpowers/specs/2026-03-23-readme-redesign-design.md`
+
+---
+
+### Task 1: Delete orphaned case study files
+
+**Files:**
+- Delete: `contributions/ibm-mcp-context-forge-pr-3179.md`
+- Delete: `contributions/ibm-mcp-context-forge-pr-3200.md`
+- Delete: `contributions/ibm-mcp-context-forge-pr-3201.md`
+- Delete: `contributions/ibm-mcp-context-forge-pr-3204.md`
+- Delete: `contributions/ibm-mcp-context-forge-pr-3208.md`
+- Delete: `contributions/ibm-mcp-context-forge-pr-3209.md`
+- Delete: `contributions/ibm-mcp-context-forge-pr-3215.md`
+
+- [ ] **Step 1: Delete the 7 orphaned files**
+
+```bash
+cd "C:/Users/Oriol/OneDrive/Escritorio/repos/open source/open-source"
+rm contributions/ibm-mcp-context-forge-pr-3179.md
+rm contributions/ibm-mcp-context-forge-pr-3200.md
+rm contributions/ibm-mcp-context-forge-pr-3201.md
+rm contributions/ibm-mcp-context-forge-pr-3204.md
+rm contributions/ibm-mcp-context-forge-pr-3208.md
+rm contributions/ibm-mcp-context-forge-pr-3209.md
+rm contributions/ibm-mcp-context-forge-pr-3215.md
+```
+
+- [ ] **Step 2: Verify only the expected 19 case study files + TEMPLATE remain**
+
+```bash
+ls contributions/
+```
+
+Expected: 19 `.md` files (15 IBM + 4 other) plus `TEMPLATE.md` = 20 files total.
+
+- [ ] **Step 3: Commit**
+
+```bash
+git add -A contributions/
+git commit -m "chore: remove 7 orphaned case study files from superseded PRs"
+```
+
+---
+
+### Task 2: Rewrite README.md
+
+**Files:**
+- Modify: `README.md`
+
+**Reference:** Use the spec's concrete highlight card format (Section 2) and the complete table rows (Section 3 and 4).
+
+- [ ] **Step 1: Rewrite README.md with the new structure**
+
+Replace the entire contents of `README.md` with the following:
+
+```markdown
 # Open Source Contributions
 
 19 merged PRs across 4 repositories — security, backend, UI, and testing.
@@ -58,3 +125,31 @@ Playwright tests failed intermittently due to shared mutable login state causing
 | [PINCE #312](https://github.com/korcankaraokcu/PINCE/pull/312) | Fixed arrow-key scrolling and selection sync in hex viewer |
 | [OpenAlgo #899](https://github.com/marketcalls/openalgo/pull/899) | Added dynamic aria-labels to inline-edit inputs |
 | [OpenAlgo #900](https://github.com/marketcalls/openalgo/pull/900) | Replaced silent failures with toast + inline error UI |
+```
+
+- [ ] **Step 2: Verify the README renders correctly**
+
+Open `README.md` and visually confirm:
+- Header + subtitle line renders
+- 4 highlight cards have `###` headings, prose, and footer links
+- IBM table has 15 rows, all PR links point to correct URLs
+- Other contributions table has 4 rows
+- No broken markdown (unclosed backticks, malformed tables, etc.)
+
+- [ ] **Step 3: Verify all case study links resolve to existing files**
+
+```bash
+cd "C:/Users/Oriol/OneDrive/Escritorio/repos/open source/open-source"
+for f in contributions/ibm-mcp-context-forge-pr-3785.md contributions/ibm-mcp-context-forge-pr-3371.md contributions/ibm-mcp-context-forge-pr-3610.md contributions/ibm-mcp-context-forge-pr-3210.md; do
+  [ -f "$f" ] && echo "OK: $f" || echo "MISSING: $f"
+done
+```
+
+Expected: All 4 show `OK`.
+
+- [ ] **Step 4: Commit**
+
+```bash
+git add README.md
+git commit -m "docs: redesign README with highlight cards and compact tables"
+```

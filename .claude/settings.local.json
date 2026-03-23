@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh pr:*)",
+      "Bash",
+      "Read",
+      "Edit",
+      "Write",
+      "WebFetch",
+      "Grep",
+      "Glob",
+      "NotebookEdit",
+      "WebSearch",
+      "WebFetch(domain:github.com)"
+    ]
+  }
+}
