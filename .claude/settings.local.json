@@ -11,7 +11,11 @@
       "Glob",
       "NotebookEdit",
       "WebSearch",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Bash(rm -rf docs/superpowers)",
+      "Bash(rm -rf images/ibm-mcp-context-forge-pr-2980)",
+      "Bash(rm -rf images/ibm-mcp-context-forge-pr-3047)",
+      "Bash(rm contributions/TEMPLATE.md)"
     ]
   }
 }
