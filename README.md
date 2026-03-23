@@ -1,6 +1,6 @@
 # Open Source Contributions
 
-19 merged PRs across 4 repositories — security, backend, UI, and testing.
+19 merged PRs across 4 repositories: security, backend, UI, and testing.
 
 ## Highlights
 
