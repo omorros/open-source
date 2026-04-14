@@ -43,6 +43,7 @@ Playwright tests failed intermittently due to shared mutable login state causing
 | [#3371](https://github.com/IBM/mcp-context-forge/pull/3371) | Fixed forwarded RPC non-2xx responses masked as success |
 | [#3370](https://github.com/IBM/mcp-context-forge/pull/3370) | Eliminated Playwright agents modal test flake by removing legacy hidden table |
 | [#3210](https://github.com/IBM/mcp-context-forge/pull/3210) | Eliminated Playwright flakiness via JWT-first auth and HTMX-aware waits |
+| [#3208](https://github.com/IBM/mcp-context-forge/pull/3208) | Added regression tests for prompt `original_name` during gateway federation |
 | [#3206](https://github.com/IBM/mcp-context-forge/pull/3206) | Fixed pagination controls vanishing after filtering (Alpine.js reinit) |
 | [#3205](https://github.com/IBM/mcp-context-forge/pull/3205) | Surfaced toast notifications for user deletion errors |
 | [#3185](https://github.com/IBM/mcp-context-forge/pull/3185) | Widened `ServerCapabilities` fields to `Dict[str, Any]` to match MCP SDK |
