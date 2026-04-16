@@ -1,6 +1,6 @@
 # Open Source Contributions
 
-20 merged PRs across 4 repositories: security, backend, UI, and testing.
+21 merged PRs across 4 repositories: security, backend, UI, testing, and CI.
 
 ## Highlights
 
@@ -35,6 +35,7 @@ Playwright tests failed intermittently due to shared mutable login state causing
 | PR | Outcome |
 |---|---|
 | [#3785](https://github.com/IBM/mcp-context-forge/pull/3785) | Added forbidden-pattern check to `ToolUpdate.validate_description` |
+| [#4242](https://github.com/IBM/mcp-context-forge/pull/4242) | Fixed `docker-release` workflow failing every release via check-runs API and annotated-tag peeling |
 | [#3708](https://github.com/IBM/mcp-context-forge/pull/3708) | Removed unused `PaginationParams`, `ObservabilityQueryParams`, and `PerformanceHistoryParams` schemas |
 | [#3647](https://github.com/IBM/mcp-context-forge/pull/3647) | Persisted admin table filters across HTMX pagination and partial refresh |
 | [#3610](https://github.com/IBM/mcp-context-forge/pull/3610) | Fixed browser crashes on large teams by switching to search-only non-member loading |
