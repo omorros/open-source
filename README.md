@@ -1,6 +1,6 @@
 # Open Source Contributions
 
-21 merged PRs across 4 repositories: security, backend, UI, testing, and CI.
+22 merged PRs across 4 repositories: security, backend, UI, testing, and CI.
 
 ## Highlights
 
@@ -44,6 +44,7 @@ Playwright tests failed intermittently due to shared mutable login state causing
 | [#3371](https://github.com/IBM/mcp-context-forge/pull/3371) | Fixed forwarded RPC non-2xx responses masked as success |
 | [#3370](https://github.com/IBM/mcp-context-forge/pull/3370) | Eliminated Playwright agents modal test flake by removing legacy hidden table |
 | [#3210](https://github.com/IBM/mcp-context-forge/pull/3210) | Eliminated Playwright flakiness via JWT-first auth and HTMX-aware waits |
+| [#4255](https://github.com/IBM/mcp-context-forge/pull/4255) | Established TypeScript Playwright E2E suite and CI workflow for the React UI rewrite |
 | [#3208](https://github.com/IBM/mcp-context-forge/pull/3208) | Added regression tests for prompt `original_name` during gateway federation |
 | [#3206](https://github.com/IBM/mcp-context-forge/pull/3206) | Fixed pagination controls vanishing after filtering (Alpine.js reinit) |
 | [#3205](https://github.com/IBM/mcp-context-forge/pull/3205) | Surfaced toast notifications for user deletion errors |

@@ -15,7 +15,8 @@
       "Bash(rm -rf docs/superpowers)",
       "Bash(rm -rf images/ibm-mcp-context-forge-pr-2980)",
       "Bash(rm -rf images/ibm-mcp-context-forge-pr-3047)",
-      "Bash(rm contributions/TEMPLATE.md)"
+      "Bash(rm contributions/TEMPLATE.md)",
+      "PowerShell(gh pr view 4255 --repo IBM/mcp-context-forge --json number,title,url,state,mergedAt,body,labels,files,additions,deletions,commits,comments,reviews)"
     ]
   }
 }
